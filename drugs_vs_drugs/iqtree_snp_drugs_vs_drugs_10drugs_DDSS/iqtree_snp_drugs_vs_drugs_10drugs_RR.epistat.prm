@@ -1,0 +1,6 @@
+TAU="3.564e-05"
+PairsType="intragene"
+StatType="branch_pairs"
+IgnoreTerminals="0"
+BranchDistUnits="DEFAULT"
+#Alphabet="RS"

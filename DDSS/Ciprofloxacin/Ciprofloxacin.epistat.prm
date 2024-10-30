@@ -1,0 +1,6 @@
+TAU="0.000180290336973697"
+PairsType="intergene"
+StatType="allele_branch_pairs"
+IgnoreTerminals="0"
+BranchDistUnits="DEFAULT"
+Alphabet="ARNDCQEGHILKMFPSTWYV"

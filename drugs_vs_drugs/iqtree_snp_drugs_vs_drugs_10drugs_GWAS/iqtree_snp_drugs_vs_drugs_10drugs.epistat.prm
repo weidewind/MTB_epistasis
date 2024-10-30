@@ -1,0 +1,6 @@
+TAU="6.796e-05"
+PairsType="intragene"
+StatType="allele_branch_pairs"
+IgnoreTerminals="0"
+BranchDistUnits="DEFAULT"
+Alphabet="RS"

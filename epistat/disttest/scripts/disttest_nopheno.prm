@@ -1,0 +1,8 @@
+tree="9drugs.filtered"
+state="nsyn"
+data_folder="./epistat/nophen"
+newick="./epistat/nophen/9drugs.filtered.newick"
+site_pairs="./epistat/nophen/9drugs.filtered.site_pairs"
+s2p="./epistat/nophen/min_RR_SR.site2pheno"
+fdr_folder="./epistat/nophen/disttest/9drugs.filtered/fdr"
+output_folder="./epistat/distest/nsyn/nopheno"

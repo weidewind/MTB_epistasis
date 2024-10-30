@@ -1,0 +1,14 @@
+Amikacin	1
+Capreomycin	2
+Ciprofloxacin	3
+Ethambutol	4
+Ethionamide	5
+Isoniazid	6
+Kanamycin	7
+Moxifloxacin	8
+Ofloxacin	9
+Para-aminosalisylic_acid	10
+Prothionamide	11
+Pyrazinamide	12
+Rifampicin	13
+Streptomycin	14
