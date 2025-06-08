@@ -113,8 +113,8 @@ Go to the epistat/phen folder and edit the script file 9drugs.run_cumdist.sh spe
 EPISTAT7_HOME =path/to/installed/EpiStat_v7.1
 Run:
 	./9drugs.run_cumdist.sh
-When it finishes, check that file ‘9drugs.filtered.stat.ident’  appeared in epistat/phen folder and files “\*.stat.ident” appeared within folders ./9drugs.filtered/pheno/<DrugID>/samples/L0I0
-<DrugID> is the integer identifier of a drug. See the ‘drug_codes.txt’ file in the project root folder to convert DrugIDs into the drug names.
+When it finishes, check that file ‘9drugs.filtered.stat.ident’  appeared in epistat/phen folder and files “\*.stat.ident” appeared within folders ./9drugs.filtered/pheno/{DrugID}/samples/L0I0
+{DrugID} is the integer identifier of a drug. See the ‘drug_codes.txt’ file in the project root folder to convert DrugIDs into the drug names.
 Go to the ‘epistat/nophen’ folder and edit the script file ‘9drugs.run_cumdist.sh’ specifying the EPISTAT7_HOME variable which has to contain a path to the installed EpiStat v7.1 software:
 EPISTAT7_HOME =path/to/installed/EpiStat_v7.1
  Run:
