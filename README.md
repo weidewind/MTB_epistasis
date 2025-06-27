@@ -28,6 +28,7 @@ Select the DDSS subfolder as the current folder. DDSS is a shortcut for the Drug
 
 **Note!** We use [BiRewire](https://www.bioconductor.org/packages/release/bioc/html/BiRewire.html) to randomly shuffle mutations on the tree branches. BiRewire has high RAM requirements for DDSS and you may need to constrain the number of its parallel executing jobs. Edit numbers of allowed parallel jobs in <DRUG_NAME>/* _gnu_parallel.opts files accounted by the  “-j njobs” option. 
 Example: the file Isoniazid_gnu_parallel.opts contains the line “shuffle_incidence_matrix.R	-j 15”. Increase the number of jobs – 15 if you have more than 1500Gb on the node processing the Isoniazid.xparr file or decrease it proportionally otherwise.
+
 To start the search for associations, run:
 ./run_epistat.sh dirs.list
 The same result files are expected to appear in drug subfolders as were obtained for the GWAS.
