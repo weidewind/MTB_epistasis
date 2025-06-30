@@ -91,7 +91,8 @@ If the run succeeds in the current folder the following files will appear:
 + 9drugs.filtered.upper.pvalue.unord_pairs.pairs2. unlinked.fdr – the file with FDR estimated for upper p-values;
 + 9drugs.all.block.mtx and 9drugs.all.mtx – the file with the pseudocorrelation matrix PsCOR;
 + 9drugs.block.mtx and 9drugs.mtx – the file with positive value submatrix of the pseudocorrelation matrix;
-+ 9drugs.n0.l90.cor2pcor.R.out – the file with partial correlations PCOR calculated for the positive value submatrix of the pseudocorrelation matrix;
++ 9drugs.n0.l90.cor2pcor.R.out – the file with partial correlations PCOR calculated for the positive value submatrix of the pseudocorrelation matrix.
+  
 We consider site pairs as been concordantly and discordantly evolving if their upper and lower p-values meet the FDR<10% requirement, correspondingly. To calculate the FDR for upper and lower p-values, run the command:
 ./add_fdr4pvalues.sh . 
 See results in the output files:
