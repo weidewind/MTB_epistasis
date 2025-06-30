@@ -97,6 +97,7 @@ We consider site pairs as been concordantly and discordantly evolving if their u
 See results in the output files:
 + 9drugs.z-scores.all.pairs2+upval_FDR.tab
 + 9drugs.z-scores.all.sites2+lpval_FDR.tab
+  
 **Note!** To obtain the statistical summary for concordantly and discordantly evolving pairs set upper and lower p-value thresholds corresponding to the 10% FDR in ‘9drugs.pairs2.pos.FDR10.mk_summary.cfg’ and ‘9drugs.sites2.neg.FDR10.mk_summary.cfg’ files.  To set appropriate thresholds for upper and lower p-values open each “\*. FDR10.mk_summary.cfg” file in a text editor, e.g. notepad++ and change default threshold value in the third line of the file.
 Example:
 The third line of ‘9drugs.sites2.neg.FDR10.mk_summary.cfg’:
